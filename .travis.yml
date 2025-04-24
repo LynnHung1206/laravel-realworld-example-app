@@ -3,3 +3,8 @@ php:
   - '8.3.19'
 dist: Focal
 os: linux
+notifications:
+  email:
+    - lynn.hung@104.com.tw
+  on_success: never # default: change
+  on_failure: always # default: always
